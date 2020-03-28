@@ -5,7 +5,7 @@ const SocketServer = require('ws').Server
 //指定開啟的 port
 const PORT = process.env.PORT || 9070;
 
-//創建 express 的物件，並綁定及監聽 9060 port ，且設定開啟後在 console 中提示
+//創建 express 的物件，並綁定及監聽 9070 port ，且設定開啟後在 console 中提示
 const server = express()
     .listen(PORT, () => console.log(`Listening on ${PORT}`))
 
